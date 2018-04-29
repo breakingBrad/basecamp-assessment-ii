@@ -17,7 +17,7 @@ var message = {
   userName: me.firstname
 };
 //DON'T TOUCH THE CODE ABOVE
-message[text] = "whatever you would like."
+message["text"] = "whatever you would like."
 
 // #4 Create an object called 'adjustCount' and create two methods. One called 'upVote' and one called 'downVote'. upVote should take in a number and add one to it and downVote should take in a number and minus one from it.
 
@@ -28,6 +28,7 @@ adjustCount = {
   downVote:function(num){
     return num - 1;
   }
+};
 
 // #5 Create an array called 'myFriends' with four of your friends names
 
